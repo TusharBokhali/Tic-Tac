@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .tiktok{
+            display: grid;
+            grid-template-columns:repeat(3,100px);
+            grid-template-rows: repeat(3,100px);
+            gap:5px;
+        }
+        button{
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border: 2px solid lightgray;
+            color: linear-gradient(red,blue);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="tiktok">
+        <button  onclick="rdbclick(0)"></button>
+        <button  onclick="rdbclick(1)"></button>
+        <button  onclick="rdbclick(2)"></button>
+        <button  onclick="rdbclick(3)"></button>
+        <button  onclick="rdbclick(4)"></button>
+        <button  onclick="rdbclick(5)"></button>
+        <button  onclick="rdbclick(6)"></button>
+        <button  onclick="rdbclick(7)"></button>
+        <button  onclick="rdbclick(8)"></button>
+    </div>
+        
+        <script>
+            let a = 
+        function rdbclick(el)
+        {
+             document.getElementsByTagName("button")[el].innerHTML = "<h1> A </h1>";
+        }
+    </script>
+</body>
+</html>

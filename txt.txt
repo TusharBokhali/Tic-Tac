@@ -1,0 +1,23 @@
+    if (
+                (btn0 === "X" && btn1 === "X" && btn2 === "X") ||
+                (btn3 === "X" && btn4 === "X" && btn5 === "X") ||
+                (btn6 === "X" && btn7 === "X" && btn8 === "X") ||
+                (btn0 === "X" && btn3 === "X" && btn6 === "X") ||
+                (btn1 === "X" && btn4 === "X" && btn7 === "X") ||
+                (btn2 === "X" && btn5 === "X" && btn8 === "X") ||
+                (btn0 === "X" && btn4 === "X" && btn8 === "X") ||
+                (btn2 === "X" && btn4 === "X" && btn6 === "X")
+            ) {
+                alert("X is the winner");
+            } else if (
+                (btn0 === "O" && btn1 === "O" && btn2 === "O") ||
+                (btn3 === "O" && btn4 === "O" && btn5 === "O") ||
+                (btn6 === "O" && btn7 === "O" && btn8 === "O") ||
+                (btn0 === "O" && btn3 === "O" && btn6 === "O") ||
+                (btn1 === "O" && btn4 === "O" && btn7 === "O") ||
+                (btn2 === "O" && btn5 === "O" && btn8 === "O") ||
+                (btn0 === "O" && btn4 === "O" && btn8 === "O") ||
+                (btn2 === "O" && btn4 === "O" && btn6 === "O")
+            ) {
+                alert("O is the winner");
+            }
